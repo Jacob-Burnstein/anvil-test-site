@@ -20,10 +20,10 @@ document.querySelector("button").addEventListener("click", function () {
 
   myButton.onclick = () => {
     const myHeading = document.querySelector("h1");
-    if myHeading === document.queryselector("h1") {
+    if (myHeading === document.queryselector("h1")) {
       myHeading.textContent("Cheers!")
     }
     else {
-      myHeading.textContent("h1")
+      myHeading = document.querySelector("h1")
     }
   }

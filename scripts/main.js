@@ -16,3 +16,14 @@ document.querySelector("button").addEventListener("click", function () {
     alert("Cheers!");
   });
   
+  /test/
+
+  myButton.onclick = () => {
+    const myHeading = document.querySelector("h1");
+    if myHeading === document.queryselector("h1") {
+      myHeading.textContent("Cheers!")
+    }
+    else {
+      myHeading.textContent("h1")
+    }
+  }
